@@ -54,12 +54,17 @@ body{
 
 /* Banner start */
 
-.banner{
-    display: flex;
-    padding-top: 140px;
+
+.hero-section{
     background-image: url("../images/Oval.png");
     background-repeat: no-repeat;
-    background-position: calc(50% + 360px) calc(50% + 205px);
+    background-position: calc(50% + 450px ) calc(50% + 200px);
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
 }
 
 .banner-title{
@@ -223,24 +228,24 @@ body{
     width: 76px;
     height: 76px;
     display: block;
-    background-image: url('/10-dars/images/photopng.png');
+    background-image: url("../images/photopng.png");
     content: '';
 }
 
 .addmissions::before{
-    background-image: url('/10-dars/images/photopng2.png');
+    background-image: url("../images/photopng2.png");
 }
 
 .visa:before{
-    background-image: url('/10-dars/images/photopng3.png');
+    background-image: url("../images/photopng3.png");
 }
 
 .accommodation:before{
-    background-image: url('/10-dars/images/photoimg4.png');
+    background-image: url("../images/photoimg4.png");
 }
 
 .briefing:before{
-    background-image: url('/10-dars/images/photopng5.png');
+    background-image: url("../images/photopng5.png");
 }
 
 
@@ -311,16 +316,16 @@ body{
     width: 344px;
     height: 224px;
     display: block;
-    background-image: url('/10-dars/images/newimgpng2.png');
+    background-image: url("../images/newimgpng2.png");
     content: '';
 }
 
 .climate-change::before{
-    background-image: url('/10-dars/images/newphotopng1.png');
+    background-image: url("../images/newphotopng1.png");
 }
 
 .whole-animal::before{
-    background-image: url('/10-dars/images/newimgpng3.png');
+    background-image: url("../images/newimgpng3.png");
 }
 
 .news-list-item:last-child{
@@ -402,10 +407,14 @@ body{
     width: 76px;
     height: 76px;
     display: block;
-    background-image: url('/10-dars//images/date23.png');
+    background-image: url("../images/date23.png");
     background-repeat: no-repeat;
     flex-shrink: 0;
     content: '';
+}
+
+.federation::before{
+    background-image: url("..//images/date17.png");
 }
 
 .events-title-text{
@@ -475,16 +484,16 @@ body{
     width: 348px;
     height: 215px;
     display: block;
-    background-image: url('/10-dars/images/australiya.png');
+    background-image: url("../images/australiya.png");
     content: '';
 }
 
 .canada::before{
-    background-image: url('/10-dars/images//canadapng.png');
+    background-image: url("../images/canadapng.png");
 }
 
 .uk::before{
-    background-image: url('/10-dars/images/Ukpng.png');
+    background-image: url("../images/Ukpng.png");
 }
 
 .countries-list-item-text-wrapper{
@@ -529,12 +538,12 @@ body{
     width: 62px;
     height: 62px;
     display: block;
-    background-image: url('/10-dars/images/person1.png');
+    background-image: url("../images/person1.png");
     content: '';
 }
 
 .person-men::before{
-    background-image: url('/10-dars/images/person2.png');
+    background-image: url("../images/person2.png");
 }
 
 .testimonial-subtitle{
