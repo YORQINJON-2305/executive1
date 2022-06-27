@@ -57,7 +57,7 @@ body{
 .banner{
     display: flex;
     padding-top: 140px;
-    background-image: url('/10-dars/images/Oval.png');
+    background-image: url("../images/Oval.png");
     background-repeat: no-repeat;
     background-position: calc(50% + 360px) calc(50% + 205px);
 }
